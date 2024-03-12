@@ -66,8 +66,9 @@ Now, Queue becomes empty, So, terminate these process of iteration.
 <li>Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.</li>
 
 </ol>
-## PROGRAM:
-```
+<h3>PROGRAM:</h3>
+
+<hr>
 from collections import deque
 from collections import defaultdict
 
@@ -97,8 +98,7 @@ path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
-```
-
+<hr>
 <hr>
 <h3>Sample Input</h3>
 <hr>
@@ -119,8 +119,8 @@ G F <BR>
 
 <hr>
 
-## PROGRAM:
-```
+<h3>PROGRAM:</h3>
+<hr>
 from collections import deque
 from collections import defaultdict
 
@@ -150,7 +150,7 @@ path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
-```
+<hr>
 <hr>
 <h3>Sample Input</h3>
 <hr>
